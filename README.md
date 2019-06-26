@@ -47,6 +47,6 @@ Foodoodoo is a web application that allows registered users to order food online
 2. Install all dependencies using `npm install`
 3. Run data migrations: `npm run knex migrate:latest`
 4. Run the seed: `npm run knex seed:run`
-5. Create your own Twilio account (https://www.twilio.com/try-twilio) and add your credentials in the. You will also need two phone numbers, one to represent the client and one to represent the restaurant. Note that to use these phone numbers in the Twilio free trial version, you need to verify them first. 
+5. Create your own Twilio account (https://www.twilio.com/try-twilio) and add your credentials in the order_route.js located in the routes directory. You will also need two phone numbers, one to represent the client and one to represent the restaurant. Note that to use these phone numbers in the Twilio free trial version, you need to verify them first. 
 6. Run the server: `node server.js`
 7. Visit `http://localhost:8080/`
